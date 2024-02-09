@@ -2210,3 +2210,35 @@ font-size: 17px;}
 	top: inherit;
 	bottom: 10px;
 }
+
+/** Owl Carousel slider arrow **/
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    width: 62px;
+    height: 60px;
+    background: #df3030; /* Consider a lighter or contrasting background color */
+    opacity: 1; /* Ensure full visibility */
+    font-size: 30px;
+    color: #fff; /* Change arrow color for better contrast */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #fff; /* Add border for visibility */
+    box-shadow: 0 0 10px #000; /* Add shadow for depth and visibility */
+    border-radius: 30px; /* Optional: add rounded corners */
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+    background: #fc4311;
+    color: #fff;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    left: 10px; /* Adjust based on your design */
+}
+
+.owl-carousel .owl-nav .owl-next {
+    right: 10px; /* Adjust based on your design */
+}

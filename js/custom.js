@@ -367,5 +367,17 @@ $(function () {
         interval: 5000
      });
 
-
+	 $(document).ready(function(){
+		$(".blog-images.owl-carousel").owlCarousel({
+		   items: 1,
+		   loop: true,
+		   dots: true,
+		   nav: true,
+		   autoplay: false,
+		   autoplayHoverPause: true,
+		   autoHeight: true, // Enable autoHeight
+		   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+		});
+	 });
+	 
 });
