@@ -534,7 +534,7 @@ nav.main-menu {
 /*-- end header middle --*/
 
 .top-bar-info {
-	background: #111111;
+	background: #000000;
 	padding: 5px 0px;
 }
 
@@ -625,7 +625,7 @@ nav.main-menu {
 }
 
 .dropdown-bar .dropdown-link li a {
-	color: #111111;
+	color: #111111ee;
 	display: block;
 	font-size: 12px;
 	line-height: 15px;
@@ -647,7 +647,7 @@ nav.main-menu {
 .right-dropdown-language .dropdown-link {
 	min-width: 100px;
 	padding: 7px 10px;
-	color: #111111;
+	color: #e43232;
 }
 
 .dropdown-bar {
@@ -1381,20 +1381,23 @@ nav.main-menu {
 .carousel-caption {	
     border-radius: 185px;
     padding: 2px 52px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Add this line for text shadow */
 
 }
 
 .banner-main .carousel-caption h1 {
 	color: #fff;
-	font-size: 70px;
+	font-size: 100px;
 	line-height: 70px;
 	font-weight: bold;
 	padding-top: 40px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Add this line for text shadow */
 }
 
 .banner-main .carousel-caption p {
 	font-size: 17px;
 	padding: 20px 0px 40px 0px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Add this line for text shadow */
 }
 
 .banner-main .carousel-caption a {
@@ -1525,6 +1528,12 @@ z-index: 999;
 } 
 .about .about-img figure {
 	margin: 0;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	
 }
 
 
@@ -1999,7 +2008,7 @@ font-size: 17px;}
   .team-card {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
   }
   
   .social-media-links {
@@ -2019,12 +2028,12 @@ font-size: 17px;}
   }
   
   .position {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
-	color: #fc4311;
+	color: #f74413;
 	margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	margin-left: 0px;
   }
   
