@@ -2044,11 +2044,26 @@ font-size: 17px;}
 	margin: 10px;
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     .text-blk {
         font-size: 14px;
+		word-wrap: break-word; /* Ensures that long words will break and wrap onto the next line */
     }
 
+	/* If you have specific elements that need size adjustments, target them individually. For example: */
+	.name, .position {
+	font-size: 18px; /* Decrease the font size for names and positions */
+	}
+
+	.section-head-text {
+	font-size: 28px; /* Decrease the font size for section headings */
+	text-align: center;
+	}
+
+	.section-subhead-text {
+	font-size: 16px; /* Decrease the font size for subsection headings */
+	}
+	
 	.outer-container {
 	  padding: 10px 20px 10px 20px;
 	}
