@@ -452,13 +452,17 @@ a.readmore_bt {
 /*---------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------*/
+.logo {
+	width: 40%; /* Adjust the width percentage as needed */
+	max-width: 400px; /* Set a maximum size for the logo */
+	height: auto; /* Maintain the aspect ratio */
+	display: block; /* Align block elements */
+	margin: 0 auto; /* Center the logo horizontally */
+  }
+
 
 .logo_section {
 	text-align: center;
-}
-
-.logo {
-	float: left;
 }
 
 nav.main-menu {
@@ -494,6 +498,14 @@ nav.main-menu {
 .main-menu ul>li nth:child(5) a {
 	padding-right: 0px;
 }
+
+.menu-button {
+	position: absolute;
+	top: 0; /* Align to the top of the header */
+	right: 0; /* Align to the right of the header */
+	padding: 10px; /* Add some space inside the button */
+	z-index: 10; /* Make sure it's above other elements */
+	}
 
 .right_cart_section ul li {
 	float: left;
@@ -2044,10 +2056,10 @@ font-size: 17px;}
 	margin: 10px;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .text-blk {
         font-size: 14px;
-		word-wrap: break-word; /* Ensures that long words will break and wrap onto the next line */
+		word-wrap: break-word; /* Ensures that long words will break and wrap onto the next line */		
     }
 
 	/* If you have specific elements that need size adjustments, target them individually. For example: */
@@ -2071,5 +2083,19 @@ font-size: 17px;}
 	.section-head-text {
 	  text-align: center;
 	}
+	
+	nav.main-menu {
+		width: 100%;
+		text-align: center;
+	  }
+
+	.menu-button {
+	padding: 10px; /* You can adjust the padding to align the button better */
+	font-size: 30px; /* Increase the size of the hamburger icon if it's too small */
+	}
+
+	.logo {
+		width: 30%; /* or any other percentage that fits well on smaller screens */
+	  }
   }
 /* Team end */
