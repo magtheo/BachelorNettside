@@ -368,14 +368,17 @@ $(function () {
 
 	 $(document).ready(function(){
 		$(".blog-images.owl-carousel").owlCarousel({
-		   items: 1,
-		   loop: true,
-		   dots: true,
-		   nav: true,
-		   autoplay: false,
-		   autoplayHoverPause: true,
-		   autoHeight: true, // Enable autoHeight
-		   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+			items: 1,
+			loop: true,
+			dots: true,
+			nav: true,
+			autoplay: false,
+			autoplayHoverPause: true,
+			video: true, // Enables video support
+			lazyLoad: true, // Optionally, enable lazy loading
+			merge: true, // Optionally, merge items if you have varying content lengths or types
+			autoHeight: true, // Enable autoHeight
+			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
 		});
 	 });
 	 

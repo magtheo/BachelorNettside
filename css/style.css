@@ -1569,6 +1569,14 @@ margin-top: 50px;
 
 /** blog section **/
 
+.item-video video {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .blog {
      background-color: #fff;
      padding: 90px 0px;
